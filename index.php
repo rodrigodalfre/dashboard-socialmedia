@@ -41,49 +41,44 @@
 		</header>
 
 		<div class="container">
-
-		<div id="cards">
-				<div class="card facebook">
-					<div class="card-block">
-						<div class="social-media">
-							<span>@Elizabeto</span>
-						</div>
-						<h1>1987</h1>
-						<h2>Followers</h2>
-						<h3 class="up">▲ 12 Today</h3>
+			<div id="cards">
+					<div class="card facebook">
+							<div class="social-media">
+								<p class="teste"><img src="imagens/icon-facebook.svg" alt=""> @Elizabeto</p>
+							</div>
+							<h1>1987</h1>
+							<h2>Followers</h2>
+							<h3 class="up">▲ 12 Today</h3>
 					</div>
-				</div>
 
-				<div class="card twitter">
-					<div>
-						<span>@Elizabeto</span>
-						<h1>1044</h1>
-						<h2>Followers</h3>
-						<h3 class="down">▼ 12 Today</h4>
+					<div class="card twitter">
+							<div class="social-media">
+								<p class="teste"><img  src="imagens/icon-twitter.svg" alt=""> @Elizabeto</p>
+							</div>
+							<h1>1044</h1>
+							<h2>Followers</h3>
+							<h3 class="down">▼ 12 Today</h4>
 					</div>
-				</div>
 
-				<div class="card instagram">
-					<div>
-						<span>@Elizabeto</span>
-						<h1>11k</h1>
-						<h2>Followers</h3>
-						<h3 class="up">▲ 74 Today</h4>
+					<div class="card instagram">
+							<div class="social-media">
+								<p class="teste"><img src="imagens/icon-instagram.svg" alt=""> @Elizabeto</p>
+							</div>
+							<h1>11k</h1>
+							<h2>Followers</h3>
+							<h3 class="up">▲ 74 Today</h4>
 					</div>
-				</div>
 
-				<div class="card youtube">
-					<div>
-						<span>Rodrigo D.</span>
-						<h1>9239</h1>
-						<h2>Followers</h3>
-						<h3 class="up">▲ 154 Today</h4>
+					<div class="card youtube">
+							<div class="social-media">
+								<p class="teste"><img src="imagens/icon-youtube.svg" alt=""> Rodrigo D.</p>
+							</div>
+							<h1>9239</h1>
+							<h2>Followers</h3>
+							<h3 class="up">▲ 154 Today</h4>
 					</div>
 			</div>
-
-
 		</div>
-
 
 	Overview - Today
 
@@ -119,7 +114,7 @@
 	1407
 	12%
 
-  </div>
+  	
 
 </body>
 </html>

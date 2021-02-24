@@ -137,8 +137,7 @@ ul li.darkmode{
 
 }
 
-/* Salvar cor (preto escuro)
-background: #1f212e;  */
+/* __CARDS__  */
 
 #cards{
     padding: 0;
@@ -157,33 +156,18 @@ background: #1f212e;  */
     border-radius: 0 0px 10px 10px;
 }
 
-.card.facebook{
-    border-top: 5px solid #1690f5;
-    border-radius: 5px;
-}
-
-.card.twitter{
-    border-top: 5px solid #1ea1f1;
-    border-radius: 5px;
-}
-
-.card.instagram{
-    border-top: 5px solid #ef9676;
-    border-radius: 5px;
-}
-
-.card.youtube{
-    border-top: 5px solid #c4062c;
-    border-radius: 5px;
-}
-
-#cards span, h1, h2, h3{
+.social-media{
     display: block;
+    padding: 20px 0;
 }
 
-#cards span{
-    padding: 30px 5px; 
-    margin-top: 10px;
+.social-media img{
+    padding-right: 5px;
+    vertical-align: bottom;
+}
+
+.social-media p{
+    margin-left: 7px;
     font-size: 13px;
     color: #8c92b4;
     font-weight: 550;
@@ -215,6 +199,28 @@ background: #1f212e;  */
     font-size: 14px;
     color: #99283c;
     padding: 13px;
+}
+
+/* __Colors Social Media__ */
+
+.card.facebook{
+    border-top: 5px solid #1690f5;
+    border-radius: 5px;
+}
+
+.card.twitter{
+    border-top: 5px solid #1ea1f1;
+    border-radius: 5px;
+}
+
+.card.instagram{
+    border-top: 5px solid #ef9676;
+    border-radius: 5px;
+}
+
+.card.youtube{
+    border-top: 5px solid #c4062c;
+    border-radius: 5px;
 }
 
 /*  Alt + 30= ▲
