@@ -7,7 +7,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
     <title>Document</title>
 
-    <!-- Style -->
+    <!-- Style CSS -->
     <link rel="stylesheet" href="css/style.css">
 
     <!-- Javascript -->
@@ -17,17 +17,16 @@
 </head>
 <body>
     
-
 		<header>
 			<nav id="menu">
 				<div class="container">
 					<ul>
-						<li class="item">
-							<span>
+						<li>
+							<span class="brand">
 								Social Media Dashboard
 							</span>
 							<br>
-							<span>
+							<span class="total-follow">
 								Total Followers: 23,004
 							</span>
 						</li>
@@ -43,55 +42,47 @@
 
 		<div class="container">
 
-		<div class="cards">
-				<div>
-					<div>
-							@Elizabeto
-							1987
-							Followers
-							12 Today
+		<div id="cards">
+				<div class="card facebook">
+					<div class="card-block">
+						<div class="social-media">
+							<span>@Elizabeto</span>
+						</div>
+						<h1>1987</h1>
+						<h2>Followers</h2>
+						<h3 class="up">▲ 12 Today</h3>
 					</div>
 				</div>
 
-				<div class="card">
+				<div class="card twitter">
 					<div>
-							@Elizabeto
-							1044
-							Followers
-							99 Today
+						<span>@Elizabeto</span>
+						<h1>1044</h1>
+						<h2>Followers</h3>
+						<h3 class="down">▼ 12 Today</h4>
 					</div>
 				</div>
 
-				<div class="card">
+				<div class="card instagram">
 					<div>
-							@Elizabeto
-							11k
-							Followers
-							1099 Today
+						<span>@Elizabeto</span>
+						<h1>11k</h1>
+						<h2>Followers</h3>
+						<h3 class="up">▲ 74 Today</h4>
 					</div>
 				</div>
 
-				<div class="card">
+				<div class="card youtube">
 					<div>
-							Rodrigo D.
-							8239
-							Subscribers
-							144 Today
+						<span>Rodrigo D.</span>
+						<h1>9239</h1>
+						<h2>Followers</h3>
+						<h3 class="up">▲ 154 Today</h4>
 					</div>
 			</div>
 
 
 		</div>
-
-	
-
-
-	
-
-	
-
-	
-
 
 
 	Overview - Today

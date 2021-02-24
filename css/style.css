@@ -20,13 +20,8 @@ header{
     /* #1f212e */
     background: #1f212e;
     width: 100%;
-    height: 30%;
-    border: 1px solid green;
-}
-
-nav {
-    margin: 50px auto;
-    /* border: 1px solid yellow; */
+    height: 35%;
+    padding-top: 50px;
 }
 
 #menu ul{
@@ -46,7 +41,7 @@ nav {
 ul li.darkmode{
     text-align: right;
     margin-right: 5px;
-    color: #fff;
+    color: #fffeff;
     font-weight: 600;
 }
 
@@ -116,6 +111,22 @@ ul li.darkmode{
 
 /* _END DARKMODE_ */
 
+/* Brand and total followers */
+
+.brand {
+    font-size: 25px;
+    color: #fffeff;
+    font-weight: 650;
+}
+
+.total-follow{
+    color: #8c92b4;
+    font-weight: 550;
+    font-size: 16px;
+}
+
+
+/* __DARK MODE, another archive__ */
 
 .container {
     width: 85%;
@@ -129,11 +140,88 @@ ul li.darkmode{
 /* Salvar cor (preto escuro)
 background: #1f212e;  */
 
-.cards{
+#cards{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content:space-between;
+}
 
-    background: yellow;
-    width: 100%;
+.card{
+    text-align: center;
+    margin-top: -125px;
+    margin-bottom: 50px;
+    height: 250px;
+    width: 23%;
+    background-color: #252b43;
+    border-radius: 0 0px 10px 10px;
+}
 
+.card.facebook{
+    border-top: 5px solid #1690f5;
+    border-radius: 5px;
+}
+
+.card.twitter{
+    border-top: 5px solid #1ea1f1;
+    border-radius: 5px;
+}
+
+.card.instagram{
+    border-top: 5px solid #ef9676;
+    border-radius: 5px;
+}
+
+.card.youtube{
+    border-top: 5px solid #c4062c;
+    border-radius: 5px;
+}
+
+#cards span, h1, h2, h3{
+    display: block;
+}
+
+#cards span{
+    padding: 30px 5px; 
+    margin-top: 10px;
+    font-size: 13px;
+    color: #8c92b4;
+    font-weight: 550;
+}
+
+#cards h1{
+    margin-top: -5px;
+    font-size: 55px;
+    color: #fffeff;
+    
+}
+
+#cards h2{
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #8c92b4;
+    margin-top: -38px;
+}
+
+#cards h3.up{
+    font-size: 14px;
+    color: #45a192;
+    padding: 13px;
+}
+
+#cards h3.down{
+    font-size: 14px;
+    color: #99283c;
+    padding: 13px;
+}
+
+/*  Alt + 30= ▲
+    Alt + 31= ▼ */
+
+.borda {
+    border: 1px solid purple;
 }
 
 @media (max-width: 600px) {
