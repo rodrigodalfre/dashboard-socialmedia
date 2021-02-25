@@ -92,51 +92,53 @@
 					<h1>87</h1>
 					<h3 class="up">▲ 3%</h3>
 				</div>
-				<div class="today-card"></div>
-				<div class="today-card"></div>
-				<div class="today-card"></div>
+				<div class="today-card">
+					<h2>Likes</h2>
+					<img  src="imagens/icon-facebook.svg" alt="">
+					<h1>87</h1>
+					<h3 class="down">▼ 1%</h3>
+				</div>
+				<div class="today-card">
+					<h2>Likes</h2>
+					<img  src="imagens/icon-instagram.svg" alt="">
+					<h1>5462</h1>
+					<h3 class="up">▲ 1272%</h3>
+				</div>
+				<div class="today-card">
+					<h2>Profile Views</h2>
+					<img  src="imagens/icon-instagram.svg" alt="">
+					<h1>52k</h1>
+					<h3 class="up">▲ 587%</h3>
+				</div>
+			</div>
+			<div class="small-cards">
+				<div class="today-card">
+					<h2>Retweets</h2>
+					<img  src="imagens/icon-twitter.svg" alt="">
+					<h1>243</h1>
+					<h3 class="up">▲ 3%</h3>
+				</div>
+				<div class="today-card">
+					<h2>Likes</h2>
+					<img  src="imagens/icon-twitter.svg" alt="">
+					<h1>232</h1>
+					<h3 class="down">▼ 32%</h3>
+				</div>
+				<div class="today-card">
+					<h2>Likes</h2>
+					<img  src="imagens/icon-youtube.svg" alt="">
+					<h1>5462</h1>
+					<h3 class="up">▲ 122%</h3>
+				</div>
+				<div class="today-card">
+					<h2>Total Views</h2>
+					<img  src="imagens/icon-youtube.svg" alt="">
+					<h1>17k</h1>
+					<h3 class="up">▼ 122%</h3>
+				</div>
 			</div>
 		</div>
-		
-
 	</div>
-
-
-	
-
-	Page Views
-	87
-	3%
-
-	Likes
-	52
-	2%
-
-	Likes
-	5462
-	2257%
-
-	Profile Views
-	52k
-	1375%
-
-	Retweets
-	117
-	303%
-
-	Likes
-	507
-	553%
-
-	Likes
-	107
-	19%
-
-	Total Views
-	1407
-	12%
-
-  	
 
 </body>
 </html>

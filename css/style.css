@@ -254,18 +254,12 @@ ul li.darkmode{
     padding: 20px;
 }
 
-.today-card h1{
-    display: inline-block;
-    width: 75%;
-    font-size: 40px;
-    color: #fffeff;
-    margin-top: 25px;
+.today-card:hover {
+    background-color:#333a56;
+    transform: scale(1.05);
 }
 
-.today-card img{
-    display: inline-block;
-    vertical-align: middle;
-}
+/* by_order */
 
 .today-card h2{
     display: inline-block;
@@ -275,15 +269,32 @@ ul li.darkmode{
     font-size: 16px;
 }
 
+.today-card img{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.today-card h1{
+    display: inline-block;
+    width: 40%;
+    font-size: 40px;
+    color: #fffeff;
+    margin-top: 25px;
+}
+
 .today-card h3.up{
     display: inline-block;
     font-size: 14px;
+    width: 50%;
     color: #45a192;
+    text-align: end;
 }
 
  .today-card h3.down{
     display: inline-block;
     font-size: 14px;
+    width: 50%;
+    text-align: end;
     color: #99283c;
 }
 
