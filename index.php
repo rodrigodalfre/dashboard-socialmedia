@@ -10,30 +10,27 @@
     <!-- Style CSS -->
     <link rel="stylesheet" href="css/style.css">
 
-    <!-- Javascript -->
-    <script src="js/script.js"></script>
-
+	
 
 </head>
-<body>
+<body id="theme" class="dark-theme">
     
-	<header>
+	<header id="top" class="dark-theme-top">
 		<nav id="menu">
 			<div class="container">
 				<ul>
 					<li>
-						<span class="brand">
+						<h1 class="brand">
 							Social Media Dashboard
-						</span>
-						<br>
-						<span class="total-follow">
+						</h1>
+						<h2 class="total-follow">
 							Total Followers: 23,004
-						</span>
+						</h2>
 					</li>
-					<li class="darkmode">
-							<span class="darkmode-span">Dark Mode</span>
-							<input id="night-mode" class="switch night--mode" type="checkbox">
-							<label for="night-mode"></label>
+					<li class="switchmode">
+							<span class="switch-span">Dark Mode</span>
+							<input id="switch-mode" class="switch switch--mode" type="checkbox">
+							<label for="switch-mode"></label>
 					</li>
 				</ul>
 			</div>
@@ -43,7 +40,7 @@
 	<!-- Overview - Total -->
 	<div class="container">
 		<div id="cards">
-				<div class="card facebook">
+				<div class="card facebook card-dark">
 						<div class="social-media">
 							<p class="teste"><img src="imagens/icon-facebook.svg" alt=""> @Elizabeto</p>
 						</div>
@@ -139,6 +136,11 @@
 			</div>
 		</div>
 	</div>
+
+			
+	<!-- Javascript -->
+	<script src="js/script.js"></script>
+	
 
 </body>
 </html>
