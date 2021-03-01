@@ -9,7 +9,6 @@
 
     <!-- Style CSS -->
     <link rel="stylesheet" href="css/style.css">
-
 	
 
 </head>
@@ -28,9 +27,9 @@
 						</h2>
 					</li>
 					<li class="switchmode">
-							<span class="switch-span">Dark Mode</span>
-							<input id="switch-mode" class="switch switch--mode" type="checkbox">
-							<label for="switch-mode"></label>
+						<span class="switch-span">Dark Mode</span>
+						<input id="switch-mode" class="switch switch--mode" type="checkbox">
+						<label for="switch-mode"></label>
 					</li>
 				</ul>
 			</div>
@@ -75,7 +74,7 @@
 						<h2>Followers</h3>
 						<h3 class="up">▲ 154 Today</h4>
 				</div>
-		</div>
+			</div>
 	</div>
 
 	<!-- Overview - Today -->
@@ -87,60 +86,60 @@
 					<h2>Page Views</h2>
 					<img  src="imagens/icon-facebook.svg" alt="">
 					<h1>87</h1>
-					<h3 class="up">▲ 3%</h3>
+					<h3 class="up">▲3%</h3>
 				</div>
 				<div class="today-card card-dark">
 					<h2>Likes</h2>
 					<img  src="imagens/icon-facebook.svg" alt="">
 					<h1>87</h1>
-					<h3 class="down">▼ 1%</h3>
+					<h3 class="down">▼1%</h3>
 				</div>
 				<div class="today-card card-dark">
 					<h2>Likes</h2>
 					<img  src="imagens/icon-instagram.svg" alt="">
 					<h1>5462</h1>
-					<h3 class="up">▲ 1272%</h3>
+					<h3 class="up">▲1272%</h3>
 				</div>
 				<div class="today-card card-dark">
 					<h2>Profile Views</h2>
 					<img  src="imagens/icon-instagram.svg" alt="">
 					<h1>52k</h1>
-					<h3 class="up">▲ 587%</h3>
+					<h3 class="up">▲587%</h3>
 				</div>
 			</div>
+
 			<div class="small-cards">
 				<div class="today-card card-dark">
 					<h2>Retweets</h2>
 					<img  src="imagens/icon-twitter.svg" alt="">
 					<h1>243</h1>
-					<h3 class="up">▲ 3%</h3>
+					<h3 class="up">▲3%</h3>
 				</div>
-				<div class="today-card">
+				<div class="today-card card-dark">
 					<h2>Likes</h2>
 					<img  src="imagens/icon-twitter.svg" alt="">
 					<h1>232</h1>
-					<h3 class="down">▼ 32%</h3>
+					<h3 class="down">▼32%</h3>
 				</div>
-				<div class="today-card">
+				<div class="today-card card-dark">
 					<h2>Likes</h2>
 					<img  src="imagens/icon-youtube.svg" alt="">
 					<h1>5462</h1>
-					<h3 class="up">▲ 122%</h3>
+					<h3 class="up">▲122%</h3>
 				</div>
-				<div class="today-card">
+				<div class="today-card card-dark">
 					<h2>Total Views</h2>
 					<img  src="imagens/icon-youtube.svg" alt="">
 					<h1>17k</h1>
-					<h3 class="up">▼ 122%</h3>
+					<h3 class="up">▼122%</h3>
 				</div>
 			</div>
 		</div>
 	</div>
 
-			
+</body>
+
 	<!-- Javascript -->
 	<script src="js/script.js"></script>
-	
 
-</body>
 </html>

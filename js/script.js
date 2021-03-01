@@ -8,9 +8,6 @@ function switchClass(element, antiga, novo){
 function forClass(element, antiga, novo){
     for(i = 0; i < element.length; i++){
         switchClass(element[i], antiga, novo)
-        if(i == element.length){
-            break
-        }
     }
 }
 
@@ -24,10 +21,8 @@ switchMode.addEventListener('click', () => {
     let overview = document.querySelector('.overview')
     let todayCard = document.querySelectorAll('div.today-card')
 
-
     if(switchMode.checked){
     
-        
         switchClass(theme, 'dark-theme', 'light-theme')
         switchClass(themeTop, 'dark-theme-top', 'light-theme-top')
         switchClass(overview, 'overview-dark', 'overview-light')
@@ -35,36 +30,14 @@ switchMode.addEventListener('click', () => {
         forClass(themeCard, 'card-dark', 'card-light')
         forClass(todayCard, 'card-dark', 'card-light')
 
-
-        // for(i = 0; i <= themeCard.length; i++){
-        //     switchClass(themeCard[i], 'card-dark', 'card-light')
-        // }
-    
-        
-        // for(x = 0; x <= todayCard.length; x++){
-        //     switchClass(todayCard[x], 'card-dark', 'card-light')
-        // }
-
-
     } else{
-        
-
+    
         switchClass(theme, 'light-theme', 'dark-theme')
         switchClass(themeTop, 'light-theme-top', 'dark-theme-top')
         switchClass(overview, 'overview-light', 'overview-dark')
 
-
         forClass(themeCard, 'card-light', 'card-dark')
-        console.log('passou por aqui')
         forClass(todayCard, 'card-light', 'card-dark')
-
-        // for(i = 0; i <= themeCard.length; i++){
-        //     switchClass(themeCard[i], 'card-light', 'card-dark')
-        // }
-
-        // for(x = 0; x <= todayCard.length; x++){
-        //     switchClass(todayCard[x], 'card-light', 'card-dark')
-        // }
         
     }
 
