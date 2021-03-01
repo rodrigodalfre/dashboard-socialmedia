@@ -49,7 +49,7 @@
 						<h3 class="up">▲ 12 Today</h3>
 				</div>
 
-				<div class="card twitter">
+				<div class="card twitter card-dark">
 						<div class="social-media">
 							<p class="teste"><img  src="imagens/icon-twitter.svg" alt=""> @Elizabeto</p>
 						</div>
@@ -58,7 +58,7 @@
 						<h3 class="down">▼ 12 Today</h4>
 				</div>
 
-				<div class="card instagram">
+				<div class="card instagram card-dark">
 						<div class="social-media">
 							<p class="teste"><img src="imagens/icon-instagram.svg" alt=""> @Elizabeto</p>
 						</div>
@@ -67,7 +67,7 @@
 						<h3 class="up">▲ 74 Today</h4>
 				</div>
 
-				<div class="card youtube">
+				<div class="card youtube card-dark">
 						<div class="social-media">
 							<p class="teste"><img src="imagens/icon-youtube.svg" alt=""> Rodrigo D.</p>
 						</div>
@@ -81,27 +81,27 @@
 	<!-- Overview - Today -->
 	<div class="container">
 		 <div id="today">
-			<h1 class="overview">Overview - Today</h1>
+			<h1 class="overview overview-dark">Overview - Today</h1>
 			<div class="small-cards">
-				<div class="today-card">
+				<div class="today-card card-dark">
 					<h2>Page Views</h2>
 					<img  src="imagens/icon-facebook.svg" alt="">
 					<h1>87</h1>
 					<h3 class="up">▲ 3%</h3>
 				</div>
-				<div class="today-card">
+				<div class="today-card card-dark">
 					<h2>Likes</h2>
 					<img  src="imagens/icon-facebook.svg" alt="">
 					<h1>87</h1>
 					<h3 class="down">▼ 1%</h3>
 				</div>
-				<div class="today-card">
+				<div class="today-card card-dark">
 					<h2>Likes</h2>
 					<img  src="imagens/icon-instagram.svg" alt="">
 					<h1>5462</h1>
 					<h3 class="up">▲ 1272%</h3>
 				</div>
-				<div class="today-card">
+				<div class="today-card card-dark">
 					<h2>Profile Views</h2>
 					<img  src="imagens/icon-instagram.svg" alt="">
 					<h1>52k</h1>
@@ -109,7 +109,7 @@
 				</div>
 			</div>
 			<div class="small-cards">
-				<div class="today-card">
+				<div class="today-card card-dark">
 					<h2>Retweets</h2>
 					<img  src="imagens/icon-twitter.svg" alt="">
 					<h1>243</h1>
