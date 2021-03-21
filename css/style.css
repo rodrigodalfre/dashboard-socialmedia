@@ -133,9 +133,11 @@ ul li.switchmode{
 
 .switch--mode:checked + label:after {
     transform: translateX(25px);
+    background-color: #f5f7ff;
 }
 
     /* Brand and total followers */
+
 #menu h1 {
     font-size: 25px;
     font-weight: 650;
@@ -335,33 +337,66 @@ ul li.switchmode{
     color: #99283c;
 }
 
-
     /* responsive mode */
 
-@media (max-width: 600px) {
+@media (max-width: 376px) {
     
     .container{
-        padding: 15px;
+        padding: 20px;
+        min-width: 90%;
+    }
+
+    header { 
+        height: 30%;
     }
 
     #menu ul {
-        width:90%;
+        width:100%;
         flex-wrap: wrap;
     }
 
-    #menu ul li {
-        width: 50%;
-    }
-
-    #menu ul li.item{
-        margin-bottom: 10px;
+    .total-follow{
         padding-bottom: 15px;
-        border: 1px solid gray;
+        border-bottom: 1px solid #777;
+    }
+    
+    .switch + label {
+        margin-left: 50%;
     }
 
     #menu ul li.switchmode{
+        margin-top: 15px;
         text-align: start;
         float: left;
+    }
+    
+    /* CARDS */
+    
+    #cards{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #cards .card{
+        width: 100%;
+        margin-top: -100px;
+        margin-bottom: 120px;
+    }
+
+    /* SMALL CARDS */
+
+    #today{
+        margin-top: -120px;
+    }
+
+    #today .small-cards{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #today .today-card{
+        margin-bottom: 20px;
+        width: 100%;
     }
 }
 
