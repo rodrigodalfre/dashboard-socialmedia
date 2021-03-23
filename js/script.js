@@ -1,4 +1,26 @@
-// const switchModeStorage = localStorage.getItem('')
+const switchModeStorage = localStorage.getItem('switchTheme')
+
+if(switchModeStorage === 'light-mode'){
+    switchTheme('dark', 'light')
+}
+
+function switchTheme(oldTheme, newTheme){
+                    //Dark or Light
+    
+    let theme = document.querySelector('#theme')
+    let themeTop = document.querySelector('#top')
+    let themeCard = document.querySelectorAll('div.card')
+    let overview = document.querySelector('.overview')
+    let todayCard = document.querySelectorAll('div.today-card')
+
+    switchClass(theme, oldTheme + '-theme', newTheme + '-theme')
+    switchClass(themeTop, oldTheme + '-theme-top', newTheme + '-theme-top')
+    switchClass(overview, 'overview-' + oldTheme, 'overview-' + newTheme)
+
+    forClass(themeCard, 'card-' + oldTheme, 'card-' + newTheme)
+    forClass(todayCard, 'card-' + oldTheme, 'card-' + newTheme)
+
+}
 
 function switchClass(element, antiga, novo){
     element.classList.remove(antiga)
@@ -11,36 +33,24 @@ function forClass(element, antiga, novo){
     }
 }
 
+
 const switchMode = document.querySelector('#switch-mode')
 
 switchMode.addEventListener('click', () => {
 
-    let theme = document.querySelector('#theme')
-    let themeTop = document.querySelector('#top')
-    let themeCard = document.querySelectorAll('div.card')
-    let overview = document.querySelector('.overview')
-    let todayCard = document.querySelectorAll('div.today-card')
-
     if(switchMode.checked){
     
-        switchClass(theme, 'dark-theme', 'light-theme')
-        switchClass(themeTop, 'dark-theme-top', 'light-theme-top')
-        switchClass(overview, 'overview-dark', 'overview-light')
+        switchTheme('dark', 'light')
 
-        forClass(themeCard, 'card-dark', 'card-light')
-        forClass(todayCard, 'card-dark', 'card-light')
+        localStorage.setItem('switchTheme', 'light-mode')
+
 
     } else{
     
-        switchClass(theme, 'light-theme', 'dark-theme')
-        switchClass(themeTop, 'light-theme-top', 'dark-theme-top')
-        switchClass(overview, 'overview-light', 'overview-dark')
+        switchTheme('light', 'dark')
 
-        forClass(themeCard, 'card-light', 'card-dark')
-        forClass(todayCard, 'card-light', 'card-dark')
+        localStorage.clear()
         
     }
 
 })
-
-

@@ -133,7 +133,7 @@ ul li.switchmode{
 
 .switch--mode:checked + label:after {
     transform: translateX(25px);
-    background-color: #f5f7ff;
+    background-color: #f5f7ff; 
 }
 
     /* Brand and total followers */
