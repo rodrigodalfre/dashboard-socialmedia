@@ -22,14 +22,14 @@ function switchTheme(oldTheme, newTheme){
 
 }
 
-function switchClass(element, antiga, novo){
-    element.classList.remove(antiga)
-    element.classList.add(novo)
+function switchClass(element, oldTheme, newTheme){
+    element.classList.remove(oldTheme)
+    element.classList.add(newTheme)
 }
 
-function forClass(element, antiga, novo){
+function forClass(element, oldTheme, newTheme){
     for(i = 0; i < element.length; i++){
-        switchClass(element[i], antiga, novo)
+        switchClass(element[i], oldTheme, newTheme)
     }
 }
 
